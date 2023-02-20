@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: url('https://media.altphotos.com/cache/images/2017/03/01/09/x800/black-and-white-laptop-hands.jpg'); */
+    background-size: 95rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav { 
+    position: sticky;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+   font-size: 30px;
+   margin-left: 70px;
+   letter-spacing: 4px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: 1s;
+}
+
+.textbox {
+    align-items: center;
+    color: whitesmoke;
+    position: relative;
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 170px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.btn {
+    position: absolute;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 12px 34px;
+    top:135%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-weight: bolder;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn:hover{
+    background-color: red;
+    transition: 0.5s;
+    box-shadow: 0px 80px 140px grey;
+}
+
+/* about me */
+
+.about{
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(17, 15, 15),rgb(32, 30, 30));
+    color: whitesmoke;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: 40px;
+}
+.about_head{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.hr{
+    border: 2px solid red;
+    width: 2%;
+    margin-left: 49%;
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.about_text {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(196, 193, 193);
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.left{
+   flex-basis: 50%;
+   padding: 20px 12px;
+   margin-left: 70px;
+}
+.lhead{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.ltext{
+    font-weight: 200;
+}
+
+.btn1{
+    position: absolute;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 12px 34px;
+    top: 90%;
+    margin-left: 70px;
+    transform:translate(-50%,-50%);
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn1:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+.right {
+    flex-basis: 31%;
+    padding: 20px 12px;
+}
+.right ul li{
+    display: inline-block;
+    list-style: none;
+    border:none;
+    background-color: rgb(79, 77, 77);
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Project Section */
+
+.project{
+    min-height: 100vh;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgb(32, 30, 30),black);
+}
+.hr2{
+    border: 2px solid red;
+    width: 2%;
+    margin-left: 49%;
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+.row1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.col1{
+    flex-basis: 50%;
+    padding: 20px 12px;
+    margin-left: 120px;
+}
+.col1 img{
+    height: 300px;
+    width: 600px;
+    margin-top: 10%;
+}
+.col2 {
+    flex-basis: 30%;
+    padding: 20px 12px;
+    margin-right: 20%;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.btn2{
+    position: absolute;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 12px 34px;
+    margin-top:3.5%;
+    margin-left: 85px;
+    transform:translate(-50%,-50%);
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+.fhr{
+    border: 1px solid rgb(159, 158, 158);
+    background-color: rgb(159, 158, 158);
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 10%;
+}
+
+/* footer */
+
+.footer{
+    min-height: 20vh;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.col3 {
+    flex-basis: 60%;
+    padding: 20px 12px;
+    margin-left: 20rem;
+    padding-top: 50px;
+}
+.name{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgb(194, 193, 193);
+}
+.ftext{
+    font-size: 15px;
+    color: rgb(176, 171, 171);
+}
+.col4 {
+    flex-basis: 30%;
+    padding: 20px 12px;
+    margin-right: 20%;
+    padding-top: 50px;
+    padding-left: 20rem;
+}
+.icons{
+    color: white;
+}
+.icons a .fa{
+    font-size: 25px;
+    margin-right: 13px;
+    cursor:pointer;
+    padding: 18px 0;
+    color: grey;
+}
+.hrl{
+    background-color: rgb(72, 71, 71);
+    border: 0.5px solid rgb(72, 71, 71);
+    width: 50%;
+    text-align: center;
+    margin-left: 24%;
+    margin-bottom: 10px;
+}
+.copyright .fa{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+.copyright{
+    color:gray;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
